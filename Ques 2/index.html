@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google Search</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<ul id="nav-bar">
+    <li><a class="nav-bar-opacity" href="#">Gmail</a></li>
+    <li><a class="nav-bar-opacity" href="#">Images</a></li>
+    <li><a href="#">
+        <div class="nav-bar-opacity" id="menu-icon"></div>
+    </a></li>
+    <li>
+        <button id="sign-in"><a href="#" id="sign-in-text">Sign in</a></button>
+    </li>
+    <!--Inserted a notification icon and profile picture-->
+	<li><a class="user" href="#"><div><img src="notifications.jpeg" height="28px"> </div></a></li>
+    <li><a class="user" href="#"><div ><img src="rithin.JPG" height="28px"></div></a></li>
+</ul>
+
+<div class="main-content" style="width:550px;">
+    <div id="logo">
+        <img alt="Google logo"
+             src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+    <div id="search-bar">
+        <label>
+            <input name="search" type="text">
+        </label>
+        <a href="#" id="speech-link"><img
+                alt="Speech icon"
+                src="https://lh5.googleusercontent.com/OorCLDb2xlVQ4P2MDNCiwAnpv0K1ZrcDwEwRS3sOfDMrnYTnVPvCh7WtFQMbZ_S9u_jzcSLd8g=s128-h128-e365"></a>
+    </div>
+    <div class="buttons">
+        <button name="Google-Search" style="opacity: 0.5;">Google Search</button>
+        <button name="Feeling-Lucky" style="opacity: 0.5;">I'm Feeling Lucky</button>
+    </div>
+    <!--Code for the recent tabs section-->
+	<div class="row" style="width:100%">
+	<a class="column" style="float: left; width: 100px; padding: 0 10px;" href="https://www.netflix.com">
+	<img src="https://i.pcmag.com/imagery/reviews/05cItXL96l4LE9n02WfDR0h-5..1582751026.png" style="
+    align:center;
+    display: block;
+    margin: 0 auto 20px auto;
+    height: 50px;
+    width: 55px;"
+"></a> 
+	<a class="column" style="float: left; width:100px; padding: 0 10px;" href="https://www.facebook.com/">
+	<img src="https://i2-prod.mirror.co.uk/incoming/article676858.ece/ALTERNATES/s1200/Topic%20-%20Facebook" style="align:center;
+    display: block;
+    margin: 0 auto 20px auto;
+    height: 50px;
+    width: 55px;"></a>
+	<a class="column" style="float: left; width:100px; padding: 0 10px;" href="https://www.espn.com">
+	<img style="align:center;
+    display: block;
+    margin: 0 auto 20px auto;
+    height: 50px;
+    width: 55px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAkFBMVEXNJC7////NISvTSE/KAAv56+vKABTKABH12tvy0NHMBxrMFiPdg4b33+DJAADMHSjLER/01tflnqHvxMbsurzJAAbVVlz++vrgio7xy8378vLnp6rZaW7PMjvRPUXqsLLikpXkmZzXYWbtvb/bcXbdfIDac3fTSlHSQUnQNT3npKfVU1nPLDXcfoH45ufYZWrKT6VaAAAFp0lEQVR4nO2da1vqOhCF2+zSQiskIFDACxfxfjn//9+dFHVv2wmmq5543M+z3o/YIZk0mayZRI1+kdZEirQmIoQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCAlLniEUfwxVkaeQrZ80NxrvmrX6pj/SkJ/2AYaLt9FSZnS5WC8R2xYMptv5KH/3PF+3tdrczYqjHv6HpGWM8PzaKWO2PciuPeWZfnM8AZp4eU7Czy6lMFd2h2UyO8GGGKM8zw99G0FWfR18tPQd5shT1aPRKWYEs6/mltKY0Sp45CpusB6NrE2yxGw6UL0TPQeNlknowdpA/enZ/uQT0IkOXKX4e4zjufY7/BXyNdSdfhapC9SHLtgAZLao0TQPO1gpFn6ucnR4O2KjFt7QKgs7WNkQ6s6DiUYhN8LfTEyUDmCrKGyIn62g3pwU+hZ2oQvrPEqw91hxGXawMqw3O11cwy50oRosfArfBR0sBcqse2W+YS+Mq/WunnCri6CDVZxjvbFhd4r70IFFl/Vehk0QQZllt5t0DPvQBbveYZkVr8KqUjNZ9QCWuR0sxKArqztVLKCuVZwG1lkmQag6k0IWXbHBp4CNAo8VIeR/R6cQ1sK0fLRRTcfaSa2tEh8qX98Dj9V8PEDQkdm2tLja7rI/1fQp1MxgvNfqrtlQv57M6HPRExN0sIoFpGPKGZTdluv3avoMzVz2hUNm1dNkmUrY7oXEPEAu9LMowzTp/rCbowXiKsmTcnlVVwYyleiHrdDkWDXLij5wsOLramnoX5hRHGeOatZLXZ/LOR5Yk2Z9yIWzDkWmKtBoMAONV3a9i0L/sh7A5UHZWdjBSrBq1qJD+XKZwaExjsepoyrZKBrnIg4uAufRmA/nOsLLWUpF5gy02bgKstvaZuc4CjgPel6h7jEfqtqaAf2Orwu00H84rkhdX/QB/SgeCFsn1TvMhypowAdhNtCBoTFemEjJPeGxNnEcUzzsZlicQD6sDjpmBnpuQ02Ghcap3faKvfj4qS6ztqJ7gatZmMwaHl6dyrED6WkOyqxN9U6kzCrrE0fKrGFgmXUFebF83Y7UbI+IrXWuLts/3Tt7OrSSiz2hKbPEK/t2mTW+PjnO7j1oFJmaH3nwWYz/1jhkltv4eneRvOWTck8YNGTWS/OBdWCZJXTdJCmO8yHAKn3kmUTMiJtCyqwyMe4WfoelnyezZvKNf7VBuTrmWsqsnjcWy8PfSV1myXtl+6CD5TiZ231V18kZoZQMjQNf6cmxJ3hlVtgTVofM+rKuk8fII0dovPKFF0fqPffJrLD/Kq14brZXjpLjl4IrB333hxMhvO0m5ltSDvQ/Yiwin8wKWyh1yKz+8Dh2a85PP/n5K81vXKaOu6He0OhIvUe1B2RCPwyrScGT+Mpt/K6GlVky5fVe0ZN7gldmLcPOLLCQt0al+IFF4VhS977wIquS4x8nsz5lY/CKZzWJHBmo92RB7gkNmSXn+CbscQV4N2tfwBXPuLp3I0Njz3uyIFPvhsySczywzAKrWbcavHNTYbNbKbPG3pRXViWffTLrNmjpD71n/qRkduvlwVXN8sosx3usy2VHBee7ZdanlAle8Tyoo5kIjQ8dZJavmhX60BCreVodg1Y8bdS1cygXn3aQWWV9fP8CmQUeBlkbqyQd1SxvBupNvb9dZoFHgB1k1mm1NBwZqPeerHdPkNe+f5bM2hqk4lmxOIQRh8zyrhjvniDz9W1YmWWw3AWUWasH/dp9GRr91Sy53hsyKxLt3YSVWeAvLD3qtgfL5ctyMh+9//afXFJ9b3hJxHfW9wQlr32HlVnWDYjqzkK7J2dJ+vEmW9H8eYsFI76zMRTK1T1CCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQv42/gUKs4dGXURYpAAAAABJRU5ErkJggg=="></a> 
+	<a class="column" style="float:left;width:100px; padding: 0 10px;" href="https://www.amazon.com">
+	<img style="align:center;
+    display: block;
+    margin: 0 auto 20px auto;
+    height: 50px;
+    width: 55px;" src="data:image/jpeg;base64,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obaT6C1fqj7wqByl6V0nr4viC9PFtoOZMXw58FbK0xyCzgI2tJHG1wNOCjdJUy0dUySmNnscHNPGxabjjodQlazEEz3awqv8s77p9yyQz5gU0l2n5sljLXTM1BGkTefgoaBYaJSswWnIiItsiIiAiIgIiICIiApLgmZY2wdBjreli4BxG8W9/WO3iO1RpFz7jbaevXpvH4+8fh66WtfStmqb1mTaSth6TBZQA7UAneae4jUeN1Gq/AcUw8/3iJ1vrN+U3zHDxsuLC8WrcKlvRPtfi06tPeP38VNsKzrRVIArx0Tuvizz4jx818nUnxDacf5K/wC3/ft31ja6/PwW9leAg8EVty4fhOKx7z445L/SABP6Q19q8uoyRhMv5LfZ3Ov8QKmn/UGhxqVmsrfwrU9ExKuEU4lyDH+ZnI72A+4hcByDPynb+gf6l1R41s59ftLwnw7cR6feEORTJuQZb/KqG+DD/Uu1DkGlH5eZ5+6A333Ut41s49ef4lY8N3E+n3hA19RsfK/diBcTyAufIaqzKbKGDU+pjLz9txPsFh7F9VWNYJgcZbGWAj83EBfxtoPFc0+ORqT06GnNpe39smsZ1bxEIpRZYxzEDeqc5g65HEu/RvfzsuKno30GbIoaKbfs9l3N053eDYkaNBX7jWba7EQW0/8AZMPIH5R73fuC/cnGmoZJKqsNmxN3WjmXO5N7bXH+5bmNzXRtqa0R3jEViPrPHdiJ0Z1K10885mZn6Q720WqDquKJv0Wlx/3aD2NUPXZxGtlxGudLPxcb26hyA7gusvo7Hb+Rt66c8xHf8uXc6vm6triIi63OIiICIiAiIgIiICIiAiIgIiICIiAiIgIiIrlp6melfele5h62kj3cV7VLnDGacfLc1/32/vbYrwEXhq7XR1fnrE/w9Ka2pT5bTCYxZ9nH5aBp7nlvvBXOM+xW1gP6Y/koOi4beC7OfR7y6Y8R3Eer2hNZM/H81T+cn8mro1GeMTk/INjZ4Fx9pt7FGEW6eEbOvGn+8yzbf7i3qd6txjEq4f3qZ5HVfdHk2wXR4cERd9NOlIxWMfhy2va05tORERaZERFQREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREH/2Q=="></a>
+	</div>
+	<div class="row" style="width:100%">
+	<a class="column" style="float: left; width: 100px; padding: 0 10px;" href="https://www.primevideo.com">
+	<img src="https://th.bing.com/th/id/OIP.bsDvChO__hBY5ZYhwg4QvgHaDq?w=340&h=173&c=7&r=0&o=5&pid=1.7" style="
+    align:center;
+    display: block;
+    margin: 0 auto 20px auto;
+    height: 50px;
+    width: 55px;"
+"></a> 
+	<a class="column" style="float: left; width:100px; padding: 0 10px;" href="https://www.youtube.com/">
+	<img src="https://th.bing.com/th/id/OIP.WX1DDGT84CRJwDYCiG2b7wHaE8?w=268&h=180&c=7&r=0&o=5&pid=1.7" style="align:center;
+    display: block;
+    margin: 0 auto 20px auto;
+    height: 50px;
+    width: 55px;"></a>
+	<a class="column" style="float: left; width:100px; padding: 0 10px;" href="https://www.hbomax.com">
+	<img style="align:center;
+    display: block;
+    margin: 0 auto 20px auto;
+    height: 50px;
+    width: 55px;" src="https://th.bing.com/th/id/OIP.ngR0R4akBmmMZdRq96hacgHaHa?w=166&h=180&c=7&r=0&o=5&pid=1.7"></a> 
+	<a class="column" style="float:left;width:100px; padding: 0 10px;" href="https://www.disney.com">
+	<img style="align:center;
+    display: block;
+    margin: 0 auto 20px auto;
+    height: 50px;
+    width: 55px;" src="https://th.bing.com/th/id/OIP.NEe0CyZVlAGN9uYBDugIEQHaE8?w=247&h=180&c=7&r=0&o=5&pid=1.7"></a>
+	</div>
+</div>
+
+
+</body>
+<footer>
+    <div class="bottom-nav">
+        <ul class="ul-left">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <ul class="ul-right">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+
+        </ul>
+    </div>
+</footer>
+</html>
+</body>
+</html>
